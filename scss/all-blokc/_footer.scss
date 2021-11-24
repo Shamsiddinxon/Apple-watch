@@ -1,0 +1,39 @@
+.footer {
+    // position: absolute;
+    background-image: url(../img/runners.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    padding: 50px;
+
+
+    &__wrapp {
+        width: 870px;
+    }
+
+    &__left--box {
+
+    }
+
+    &__left {
+        margin: 0;
+        margin-left:auto ;
+        padding-top: 50px;
+        width: 430px;
+    }
+
+    &__title {
+        color: #FFF;
+    }
+
+    &__desc {
+        color: #FFF;
+    }
+
+    &__desc--box {
+        padding-left:40px;
+        border-left: 2px solid #fff;
+    }
+}

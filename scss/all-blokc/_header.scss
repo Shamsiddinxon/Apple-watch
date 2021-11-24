@@ -1,0 +1,56 @@
+.header {
+    padding: 20px 0;
+
+    &__container {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    &__right {
+        display: flex;
+        align-items:center;
+        margin-left: auto;
+    }
+}
+
+.sitenav {
+    margin-right: 40px;
+
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item+&__item {
+        margin-left: 20px;
+    }
+
+    &__item {
+        margin: 0;
+
+    }
+
+    &__item--link {
+        display: inline-block ;
+        padding: 5px 0;
+        border: 2px solid transparent;
+        color: #999;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    &__item--link:hover {
+        border-bottom-color:#444;
+        color:#333;
+    }
+}
+
+.search-form-input {
+    width: 150px;
+    border:none;
+    border-bottom: 2px solid #444;
+    outline:none;
+}

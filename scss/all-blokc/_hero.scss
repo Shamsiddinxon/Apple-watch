@@ -1,0 +1,15 @@
+.hero {
+    // width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding:7px 0 107px ;
+    text-align: center;
+
+
+    &__img {
+        position: absolute;
+        top: 0;
+        right:-70px;
+        width: 450px;
+    }
+}
