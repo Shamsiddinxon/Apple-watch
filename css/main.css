@@ -557,12 +557,30 @@ img {
   margin: 0;
 }
 
+.content__top-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content__top-dash {
+  width: 25px;
+  height: 2px;
+  background-color: red;
+  margin-right: 5px;
+}
+
 .content__link {
   text-decoration: none;
   color: red;
   font-weight: bold;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .content__link:hover {

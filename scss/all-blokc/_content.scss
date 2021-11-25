@@ -20,11 +20,25 @@
 
     }
 
+    &__top-link {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__top-dash {
+        width: 25px;
+        height: 2px;
+        background-color: red;
+        margin-right: 5px;
+    }
+
     &__link {
         text-decoration: none;
         color:red;
         font-weight: bold;
-        transition: 0.3s;
+        font-size: 16px;
+        text-transform: uppercase;
     }
 
     &__link:hover {
